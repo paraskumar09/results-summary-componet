@@ -1,0 +1,155 @@
+body
+{
+    margin: 14.5rem 0;
+    text-align: center;
+    
+    
+}
+.main
+{
+    margin: 0 auto;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    box-shadow: 15px 15px 15px #e9e7e7 ;
+    border-radius: 30px;
+}
+
+.left
+{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to bottom, hsl(252,100%,67%), hsl(241, 81%, 54%)) ;
+    border-radius: 30px;
+    color: white;
+    
+  
+}
+
+.score
+{
+
+    background:linear-gradient(to bottom ,hsla(256, 72%, 46%, 1),hsla(241,72%,46%,0)) ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 45px;
+    box-sizing: border-box;
+
+
+}
+
+#subscore1
+{
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#subscore2
+{
+    margin-top: 1px;
+    font-size: 20px;
+    color: #a8a4a4;
+}
+.right
+{
+    margin: 0;
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    
+}
+
+.Reaction
+{
+    background-color: hsla(0, 100%, 67%, 0.05);
+    color: rgb(255 87 87);
+    margin-bottom: 11px;
+    border-radius:10px;    
+}
+
+.Memory
+{
+    background-color: hsla(39, 100%, 56%, 0.05);
+    margin-bottom: 11px;
+    color:rgb(255 176 31);
+    border-radius:10px;
+
+}
+
+.Verbal
+{
+    background-color: hsla(166, 100%, 37%, 0.05);
+    margin-bottom: 11px;
+    color: rgb(0 189 145);
+    border-radius:10px;
+}
+
+.Visual
+{
+    background-color: hsla(234, 85%, 45%, 0.05);
+    margin-bottom: 11px;
+    color: rgb(17 37 212);
+    border-radius:10px;
+}
+
+.subject
+{
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    padding:20px 0 20px 25px; 
+    
+}
+
+.subject-score
+{
+    color: rgb(80, 77, 77);
+    display: inline-block;
+    width: 49%;  
+    text-align: right; 
+    padding:20px 15px 20px 0; 
+    box-sizing: border-box;
+}
+h3
+{
+    font-size: x-large;
+}
+.btn
+{
+    width: 95%;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 14px;
+    background-color: rgb(48,59,90);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.btn:hover
+{
+    background-color:hsla(256, 72%, 46%, 1) ;
+}
+
+.icon
+{
+    position: relative;
+    top: 5px;
+    right: 10px;
+
+}
+.attribution
+{
+    position: absolute;
+    bottom: 5px;
+    right: 40%;
+}
